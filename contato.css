@@ -1,0 +1,103 @@
+body{
+    color: rgb(245, 241, 241);
+    background-color:rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+
+}
+a{
+    color:rgb(247, 242, 242);
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+    
+dy {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color:#434242;
+    max-width: 90px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #086363;
+    text-shadow: 5px 5px 5px rgb(241, 239, 239);
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: rgb(240, 239, 239);
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: #66FFFF;
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: #66FFFF;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+footer img{
+    width: 70px;
+    height: 70px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 2px;
+}
